@@ -56,6 +56,15 @@
     <Compile Include="ZunDokos.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DxLib.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DxLibDotNet.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DxLib_x64.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="resource\img\BB.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
